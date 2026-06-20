@@ -41,7 +41,7 @@ Guarda esto como `requirements_parsed` para el resto del pipeline.
 
 ### Paso 3: Cargar historial
 
-Lee `.opencode/prospecting-history.jsonl` (crear si no existe).
+Lee `.opencode/opensearcher-history.jsonl` (crear si no existe).
 
 Cada línea es:
 ```json
@@ -66,7 +66,7 @@ GET https://maps.googleapis.com/maps/api/place/textsearch/json
   &region=ES
 ```
 
-La API key se lee de `.opencode/config.yaml` → `vibe_prospecting.google_places_key`.
+La API key se lee de `.opencode/skills/opensearcher/config.yaml` → `opensearcher.google_places_key`.
 
 Para cada resultado, llama a Place Details para obtener `website` y `formatted_phone_number`:
 
@@ -161,7 +161,7 @@ Para cada candidato seleccionado, genera:
 
 ### Paso 9: Persistir en historial
 
-Anexa al archivo `.opencode/prospecting-history.jsonl`:
+Anexa al archivo `.opencode/opensearcher-history.jsonl`:
 - Una línea por cada candidato **seleccionado** con `type: "accepted"`
 - Una línea por cada candidato evaluado y **rechazado** con `type: "rejected"` + `reason`
 
@@ -218,10 +218,10 @@ Escribe `prospects.md` con la siguiente estructura:
 [Repetir para cada candidato]
 ```
 
-## Config (.opencode/config.yaml)
+## Config (.opencode/skills/opensearcher/config.yaml)
 
 ```yaml
-vibe_prospecting:
+opensearcher:
   google_places_key: "tu-api-key"
   pagespeed_key: "tu-api-key"  # Misma key de Google Cloud
   defaults:
@@ -231,7 +231,7 @@ vibe_prospecting:
 ```
 
 Si no encuentra el config o las keys, avisa al usuario con el mensaje exacto:
-> "Necesito que configures tu API key de Google Places en `.opencode/config.yaml`. Si no tienes una, créala en https://console.cloud.google.com/apis/credentials"
+> "Necesito que configures tu API key en `.opencode/skills/opensearcher/config.yaml`. Si no tienes una, créala en https://console.cloud.google.com/apis/credentials"
 
 ## Reglas importantes
 

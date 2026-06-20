@@ -10,9 +10,11 @@ Search for businesses matching your criteria, evaluate their web presence with P
 ## Installation
 
 ```bash
-# In your project (or ~/.config/opencode/skills/)
-mkdir -p .opencode/skills
+# In your project
 cp -r skills/opensearcher .opencode/skills/
+
+# Or globally (~/.config/opencode/skills/)
+cp -r skills/opensearcher ~/.config/opencode/skills/
 
 # Dependencies
 pip install -r .opencode/skills/opensearcher/scripts/requirements.txt
@@ -20,7 +22,7 @@ pip install -r .opencode/skills/opensearcher/scripts/requirements.txt
 
 ## Config
 
-Create `.opencode/config.yaml`:
+Edit `.opencode/skills/opensearcher/config.yaml`:
 
 ```yaml
 opensearcher:
@@ -30,8 +32,8 @@ opensearcher:
 
 ## Usage
 
-1. Create `requeriments.md` with your search criteria
-2. In opencode: invoke the skill (triggers on words like "prospecting", "find leads", etc.)
+1. Create `requeriments.md` in your project root with your search criteria
+2. In opencode: invoke the skill (triggers on "prospecting", "find leads", etc.)
 3. Get `prospects.md` with evaluated candidates
 
 ## Structure
@@ -39,6 +41,8 @@ opensearcher:
 ```
 .opencode/skills/opensearcher/
 ├── SKILL.md                    # LLM instructions
+├── config.yaml                 # API keys (edit this)
+├── requeriments.md.example     # Template for your search criteria
 └── scripts/
     ├── ddgs-search.py          # DuckDuckGo auxiliary search
     └── requirements.txt
