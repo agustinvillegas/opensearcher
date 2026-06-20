@@ -1,26 +1,26 @@
-# OpenSearcher — Skill de opencode para prospección de negocios
+# OpenSearcher — opencode skill for business prospecting
 
-Busca negocios que cumplan ciertos requisitos, evalúa su presencia web con PageSpeed Insights y genera un reporte `.md` con los mejores candidatos para venderles una página web.
+Search for businesses matching your criteria, evaluate their web presence with PageSpeed Insights, and get a `.md` report with the best leads to sell them a website.
 
-## Requisitos
+## Requirements
 
-- Python 3.8+ con `pip install duckduckgo-search`
-- Google Cloud API key con Places API + PageSpeed Insights habilitados
+- Python 3.8+ with `pip install duckduckgo-search`
+- Google Cloud API key with Places API + PageSpeed Insights enabled
 
-## Instalación
+## Installation
 
 ```bash
-# En tu proyecto (o ~/.config/opencode/skills/)
+# In your project (or ~/.config/opencode/skills/)
 mkdir -p .opencode/skills
 cp -r skills/opensearcher .opencode/skills/
 
-# Dependencias
+# Dependencies
 pip install -r .opencode/skills/opensearcher/scripts/requirements.txt
 ```
 
 ## Config
 
-Crea `.opencode/config.yaml`:
+Create `.opencode/config.yaml`:
 
 ```yaml
 opensearcher:
@@ -28,18 +28,18 @@ opensearcher:
   pagespeed_key: "AIza..."
 ```
 
-## Uso
+## Usage
 
-1. Crea `requeriments.md` con los criterios de búsqueda
-2. En opencode: invoca la skill (se activa con palabras como "prospección", "buscar leads", etc.)
-3. Obtendrás `prospects.md` con los candidatos evaluados
+1. Create `requeriments.md` with your search criteria
+2. In opencode: invoke the skill (triggers on words like "prospecting", "find leads", etc.)
+3. Get `prospects.md` with evaluated candidates
 
-## Estructura
+## Structure
 
 ```
 .opencode/skills/opensearcher/
-├── SKILL.md                    # Instrucciones para el LLM
+├── SKILL.md                    # LLM instructions
 └── scripts/
-    ├── ddgs-search.py          # Búsqueda auxiliar DuckDuckGo
+    ├── ddgs-search.py          # DuckDuckGo auxiliary search
     └── requirements.txt
 ```
