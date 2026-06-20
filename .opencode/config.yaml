@@ -1,0 +1,7 @@
+opensearcher:
+  google_places_key: ""
+  pagespeed_key: ""
+  defaults:
+    radius_meters: 5000
+    language: "es"
+    region: "ES"
