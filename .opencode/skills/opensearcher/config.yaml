@@ -1,6 +1,6 @@
 opensearcher:
-  google_places_key: ""
-  pagespeed_key: ""
+  google_places_key: "AIzaSyAbwPgMinQNnQkxq4fP-O4Tw0zSiG0-DZo"
+  pagespeed_key: "AIzaSyDSP7DYrtnxq05cX6WLQ7k9LXdjW4iy92s"
   defaults:
     radius_meters: 5000
     language: "es"
