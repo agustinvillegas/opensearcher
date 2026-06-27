@@ -1,728 +1,523 @@
-# Prospects — 24 de junio de 2026
+﻿# Prospects — 27/06/2026
 
-> Barberías + Tatuajes/Piercings en Argentina. Priorizar sin web o solo Instagram. Evitar franquicias. Stackear por plantilla única por categoría.
-
-## Stacking General
-
-Dos plantillas distintas:
-- **Barberías/Peluquerías** → plantilla landing + WhatsApp (19 leads)
-- **Tatuajes/Piercings** → plantilla portfolio + WhatsApp + precios (12 leads)
-
-### Barberías — Apilables por ciudad
-
-| Grupo Ciudad | Cantidad | Leads |
-|---|---|---|
-| CABA | 3 | Snazzy Style, CAPITÁN, Yoryo |
-| Mar del Plata | 3 | Diego Garcialoredo, Dartom, White |
-| Salta | 3 | Fusion Barber, Buen Boy, URBANA SALTA |
-| Córdoba | 2 | Manchester, MONACO |
-| Mendoza | 2 | Buenos Muchachos, Club Caballeros |
-| Tucumán | 2 | Rocky's, Mister Corte |
-| Santa Fe | 2 | Nicolás Lauría, Barbershop Santa Fe |
-| Olivos (GBA) | 1 | Buenos Aires Barber Shop |
-| Rosario | 1 | Barbería HL |
+> Basado en: requirements-espana.md — Solo negocios SIN página web
 
 ## Resumen
 
-| # | Nombre | Ciudad | Rating | Reviews | Web | Score |
-|---|--------|--------|--------|---------|-----|-------|
-| 1 | Barbería Snazzy Style | CABA | 4.9 | 1332 | IG only | A |
-| 2 | CAPITÁN BARBERÍA | CABA (Microcentro) | 4.9 | 1160 | IG only | A |
-| 3 | Yoryo Peluquerias | CABA | 4.8 | 583 | ❌ | A |
-| 4 | Diego Garcialoredo | Mar del Plata | 4.8 | 753 | ❌ | A |
-| 5 | Dartom Barberia | Mar del Plata | 5.0 | 282 | ❌ | A |
-| 6 | Barberia White Estilistas | Mar del Plata | 4.7 | 339 | ❌ | A |
-| 7 | Fusion Barber | Salta | 4.8 | 215 | ❌ | A |
-| 8 | Barbería Buen Boy | Salta | 4.7 | 305 | ❌ | A |
-| 9 | BARBERÍA URBANA SALTA | Salta | 4.9 | 111 | ❌ | A |
-| 10 | Nicolás Lauría Peluqueria Y Barberia | Santa Fe | 5.0 | 211 | ❌ | A |
-| 11 | Barbershop Santa Fe | Santa Fe | 4.7 | 109 | ❌ | A |
-| 12 | Rocky's Barbería | Tucumán | 4.6 | 613 | IG only | A |
-| 13 | Peluqueria & Barberia Mister Corte | Tucumán | 4.7 | 144 | ❌ | A |
-| 14 | Manchester - Barber & Saloon | Córdoba | 4.6 | 802 | ❌ | A |
-| 15 | MONACO – Barber Studio | Córdoba | 4.9 | 551 | ❌ | A |
-| 16 | Barbería Buenos Muchachos | Mendoza | 4.6 | 876 | ❌ | A |
-| 17 | Barbería Club De Caballeros Mendoza | Mendoza | 4.8 | 579 | ❌ | B |
-| 18 | Buenos Aires Barber Shop | Olivos | 4.9 | 1151 | ✅ | B |
-| 19 | Barbería HL | Rosario | 4.8 | 374 | ❌ | B |
+| # | Nombre | Ciudad | Tipo | Rating | Reviews | Score |
+|---|--------|--------|------|--------|---------|-------|
+| 1 | Taller 24H reparacion automovil | Madrid | Taller mecánico | 4.6 | 163 | A |
+| 2 | Autos Sánchez Taller Mecánico Multimarca | Madrid | Taller mecánico | 4.6 | 173 | A |
+| 3 | A J Reparaciones del Automóvil | Madrid | Taller mecánico | 4.3 | 83 | B |
+| 4 | Taller 94 Automotive | Madrid | Taller mecánico | 4.9 | 54 | A |
+| 5 | M Madrid Estilistas 66 | Madrid | Peluquería/Estética | 4.9 | 268 | A |
+| 6 | Mood beauty and wellness salon | Madrid | Peluquería/Estética | 4.9 | 138 | A |
+| 7 | Electricistas Madrid Rueda | Madrid | Electricista | 4.8 | 48 | A |
+| 8 | AUTO BROS València | Barcelona | Taller mecánico | 4.6 | 199 | A |
+| 9 | Clinisport Barcelona | Barcelona | Fisioterapia/Medicina deportiva | 5 | 86 | A |
+| 10 | Lampistería María K, Lampista | Barcelona | Fontanero | 4.9 | 125 | A |
+| 11 | Electricista Fontanero Lampista Urgencia 24/7 | Barcelona | Fontanero/Electricista | 5 | 44 | A |
+| 12 | INSTAL-TONI reformas y reparaciones | Barcelona | Fontanero/Electricista | 5 | 65 | B |
+| 13 | The Beauty Salon Valencia | Valencia | Peluquería/Estética | 4.8 | 168 | A |
+| 14 | Hairbar | Valencia | Peluquería/Estética | 4.9 | 128 | A |
+| 15 | Fontanero ciudad vella valencia 24H | Valencia | Fontanero | 4.9 | 51 | A |
+| 16 | Fontanería Ximo | Valencia | Fontanero | 4.9 | 134 | A |
+| 17 | Fontanería Antonio Cerdán | Valencia | Fontanero | 5 | 151 | A |
+| 18 | ELECTRICISTA ELECMAR Valencia | Valencia | Electricista | 5 | 54 | A |
+| 19 | Auto Repair | Valencia | Taller mecánico | 4.9 | 157 | A |
+| 20 | Sprint Auto Valencia | Valencia | Taller mecánico | 5 | 65 | B |
+| 21 | Taller mecanico 24 horas S.N | Valencia | Taller mecánico | 4.5 | 295 | A |
+| 22 | Naturé beauty salon | Sevilla | Peluquería/Estética | 4.7 | 188 | A |
+| 23 | Desatascos Tayne | Sevilla | Fontanero | 5 | 83 | A |
+| 24 | Taller mecánico Sevilla - Auto Diésel Valle | Sevilla | Taller mecánico | 4.6 | 144 | A |
+| 25 | Taller mecánico Jardinauto | Sevilla | Taller mecánico | 4.6 | 138 | B |
+| 26 | Taller Autosevilla | Sevilla | Taller mecánico | 4.7 | 170 | A |
+| 27 | AUTOMECÁNICA TRIANA | Sevilla | Taller mecánico | 4.4 | 150 | B |
+| 28 | ELECTRICISTA .SANCHEZ | Sevilla | Electricista | 4.9 | 226 | A |
+| 29 | FONTANERO TERMOS ELECTRICOS Leonardo Ruiz | Sevilla | Fontanero | 5 | 45 | A |
+| 30 | HAIR SALON MALAGA | Málaga | Peluquería/Estética | 4.9 | 342 | A |
 
 ---
 
 ## Fichas detalle
 
-### Grupo 1: CABA (3 leads, 1 visita)
+### 1. Taller 24H reparacion automovil
 
----
-
-### 1. Barbería Snazzy Style
-
-- **Dirección:** Sánchez de Bustamante 334, C1173 Cdad. Autónoma de Buenos Aires
-- **Teléfono:** 011 5669-5615
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=10094636733897763694)
-- **Rating:** ⭐ 4.9 (1332 reviews)
-- **Estado:** Operando
+- **Dirección:** C. de Elfo, 112, Cdad. Lineal, 28027 Madrid
+- **Teléfono:** 658 61 39 69
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=14843295170756239617)
+- **Rating:** ⭐ 4.6 (163 reviews)
+- **Categoría:** Taller mecánico
 
 **Análisis LLM:**
-1332 reviews con 4.9★, una de las barberías más populares de CABA. Solo tiene Instagram, sin web propia. Cliente ideal.
+NO TIENE WEB. Taller mecánico 24h con 163 reviews y 4.6⭐. Sin presencia online → cliente potencial inmediato. Sector automoción con alta demanda de búsquedas de urgencia. Lead EXCELENTE.
 
-**Por qué es buen lead:**
-- Solo Instagram, sin web propia
-- 1332 reviews → negocio con clientela masiva
-- Rating 4.9 → excelente reputación
+**Score:** A
 
 ---
 
-### 2. CAPITÁN BARBERÍA
+### 2. Autos Sánchez Taller Mecánico Multimarca
 
-- **Dirección:** Maipú 893, C1006 Cdad. Autónoma de Buenos Aires
-- **Teléfono:** 011 15-2400-4196
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=15999831207372652097)
-- **Rating:** ⭐ 4.9 (1160 reviews)
-- **Estado:** Operando
+- **Dirección:** Calle Boyacá, 2, Hortaleza, 28033 Madrid
+- **Teléfono:** 917 63 05 46
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=5503588587793163833)
+- **Rating:** ⭐ 4.6 (173 reviews)
+- **Categoría:** Taller mecánico
 
 **Análisis LLM:**
-1160 reviews y 4.9★ en pleno Microcentro porteño. Solo presencia en Instagram, sin web. Perfecto para landing con WhatsApp.
+Sin web. Taller multimarca con 173 reviews en Madrid. Sin página web en 2026 es una anomalía → oportunidad directa de venta.
 
-**Por qué es buen lead:**
-- Solo Instagram, sin web propia
-- 1160 reviews → clientela masiva
-- Microcentro → alto tráfico
+**Score:** A
 
 ---
 
-### 3. Yoryo Peluquerias
+### 3. A J Reparaciones del Automóvil
 
-- **Dirección:** Ayacucho 50, C1025 Cdad. Autónoma de Buenos Aires
-- **Teléfono:** 011 4749-2931
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=8310079523590784940)
-- **Rating:** ⭐ 4.8 (583 reviews)
-- **Estado:** Operando
+- **Dirección:** C. Nestares, 10, Arganzuela, 28045 Madrid
+- **Teléfono:** 653 85 11 94
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=686175640902662216)
+- **Rating:** ⭐ 4.3 (83 reviews)
+- **Categoría:** Taller mecánico
 
 **Análisis LLM:**
-Peluquería consolidada en CABA sin página web. 583 reviews con 4.8★. Sin web ni presencia digital.
+Sin web. Taller en Arganzuela con 83 reviews. Rating 4.3 (mejorable). Sin presencia digital → candidato a web con SEO local.
 
-**Por qué es buen lead:**
-- No tiene web
-- 583 reviews → clientela establecida
-- Rating 4.8
+**Score:** B
 
 ---
 
-### Grupo 2: Mar del Plata (3 leads, 1 visita)
+### 4. Taller 94 Automotive
 
----
-
-### 4. Diego Garcialoredo
-
-- **Dirección:** Centro, Sta. Fe 1937, Mar del Plata
-- **Teléfono:** 0223 577-7240
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=14102487926976992234)
-- **Rating:** ⭐ 4.8 (753 reviews)
-- **Estado:** Operando
+- **Dirección:** C/ de Sta. Cecilia, 5, Latina, 28011 Madrid
+- **Teléfono:** 914 64 70 93
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=9864345975077279789)
+- **Rating:** ⭐ 4.9 (54 reviews)
+- **Categoría:** Taller mecánico
 
 **Análisis LLM:**
-753 reviews sin web. Alto volumen de clientela sin presencia digital. El mejor lead de MDP.
+Sin web. Taller con 54 reviews y 4.9⭐ en Latina. Perfecta reputación pero cero presencia online.
 
-**Por qué es buen lead:**
-- Sin web
-- 753 reviews → clientela masiva
-- Rating 4.8
+**Score:** A
 
 ---
 
-### 5. Dartom Barberia
-
-- **Dirección:** Ituzaingó 4613, Mar del Plata
-- **Teléfono:** 0223 682-0264
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=14992535415721745451)
-- **Rating:** ⭐ 5.0 (282 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-5.0★ perfecto con 282 reviews. Sin web. Excelente reputación, cero presencia digital.
-
-**Por qué es buen lead:**
-- Sin web
-- Rating perfecto 5.0
-- 282 reviews
-
----
-
-### 6. Barberia White Estilistas
-
-- **Dirección:** La Rioja 1918, Mar del Plata
-- **Teléfono:** 0223 571-7652
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=17889543937720728063)
-- **Rating:** ⭐ 4.7 (339 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-339 reviews sin web. Peluquería/barbería unisex con buen volumen de clientes.
-
-**Por qué es buen lead:**
-- Sin web
-- 339 reviews
-- Rating 4.7
-
----
-
-### Grupo 3: Salta (3 leads, 1 visita)
-
----
-
-### 7. Fusion Barber Salta
-
-- **Dirección:** Cnel. Moldes 798, Salta
-- **Teléfono:** 0387 619-6619
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=4450239156424787258)
-- **Rating:** ⭐ 4.8 (215 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-215 reviews sin web. Barbería moderna sin página web. Buen rating.
-
-**Por qué es buen lead:**
-- Sin web
-- 215 reviews
-- Rating 4.8
-
----
-
-### 8. Barbería Buen Boy
-
-- **Dirección:** 20 de Febrero 434, Salta
-- **Teléfono:** 0387 15-223-8750
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=14212713199606214881)
-- **Rating:** ⭐ 4.7 (305 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-305 reviews sin web. Buen volumen de clientes sin presencia digital.
-
-**Por qué es buen lead:**
-- Sin web
-- 305 reviews
-- Rating 4.7
-
----
-
-### 9. BARBERÍA URBANA SALTA
-
-- **Dirección:** Alvarado 750 local 14, Salta
-- **Teléfono:** 0387 537-7153
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2533779175165564646)
-- **Rating:** ⭐ 4.9 (111 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-4.9★ con 111 reviews. Excelente rating, sin web. Menos reviews pero calidad top.
-
-**Por qué es buen lead:**
-- Sin web
-- Rating 4.9
-- 111 reviews
-
----
-
-### Grupo 4: Santa Fe (2 leads, 1 visita)
-
----
-
-### 10. Nicolás Lauría Peluqueria Y Barberia
-
-- **Dirección:** Bv. Pellegrini 3125, Santa Fe
-- **Teléfono:** 0342 630-4505
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=16941567877820035225)
-- **Rating:** ⭐ 5.0 (211 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-5.0★ perfecto con 211 reviews. Sin web. Excelente reputación, cero presencia online.
-
-**Por qué es buen lead:**
-- Sin web
-- Rating perfecto 5.0
-- 211 reviews
-
----
-
-### 11. Barbershop Santa Fe
-
-- **Dirección:** Av. Gdor. Freyre 2986, Santa Fe
-- **Teléfono:** 0342 15-509-7266
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=17028802992004768244)
-- **Rating:** ⭐ 4.7 (109 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-109 reviews sin web. Barbería clásica sin digitalizar.
-
-**Por qué es buen lead:**
-- Sin web
-- 109 reviews
-- Rating 4.7
-
----
-
-### Grupo 5: Tucumán (2 leads, 1 visita)
-
----
-
-### 12. Rocky's Barbería
-
-- **Dirección:** San Juan 448, San Miguel de Tucumán
-- **Teléfono:** 0381 430-7972
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=1034768024860942826)
-- **Rating:** ⭐ 4.6 (613 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-613 reviews con 4.6★. Solo Instagram, sin web propia. Muy popular en Tucumán.
-
-**Por qué es buen lead:**
-- Solo Instagram
-- 613 reviews → clientela masiva
-- Rating 4.6
-
----
-
-### 13. Peluqueria & Barberia Mister Corte
-
-- **Dirección:** Av. Colón 490, San Miguel de Tucumán
-- **Teléfono:** 0381 466-3319
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=16110113960113109928)
-- **Rating:** ⭐ 4.7 (144 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-144 reviews sin web. Barbería con buena reputación sin presencia digital.
-
-**Por qué es buen lead:**
-- Sin web
-- 144 reviews
-- Rating 4.7
-
----
-
-### Grupo 6: Córdoba (2 leads, 1 visita)
-
----
-
-### 14. Manchester - Barber & Saloon
-
-- **Dirección:** Independencia 916, Córdoba
-- **Teléfono:** 0351 15-688-1772
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=13382442094055336801)
-- **Rating:** ⭐ 4.6 (802 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-802 reviews y 4.6★ en el centro de Córdoba. Sin web. Alto volumen de clientes.
-
-**Por qué es buen lead:**
-- Sin web
-- 802 reviews → clientela masiva
-
----
-
-### 15. MONACO – Barber Studio
-
-- **Dirección:** Paraná 419, Córdoba
-- **Teléfono:** 0351 15-769-1830
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=12430030101047908193)
-- **Rating:** ⭐ 4.9 (551 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-4.9★ con 551 reviews. Sin web. Rating impecable.
-
-**Por qué es buen lead:**
-- Sin web
-- 551 reviews
-- Rating 4.9
-
----
-
-### Grupo 7: Mendoza (2 leads, 1 visita)
-
----
-
-### 16. Barbería Buenos Muchachos
-
-- **Dirección:** Av. Pedro Molina 41, Mendoza
-- **Teléfono:** 0261 344-7631
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2432737094212534154)
-- **Rating:** ⭐ 4.6 (876 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-876 reviews sin web. El mayor volumen de Mendoza.
-
-**Por qué es buen lead:**
-- Sin web
-- 876 reviews → clientela masiva
-
----
-
-### 17. Barbería Club De Caballeros Mendoza
-
-- **Dirección:** San Juan 1271, Mendoza
-- **Teléfono:** 0261 333-6969
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=9270422766338230210)
-- **Rating:** ⭐ 4.8 (579 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-579 reviews con 4.8★. Sin web. Nombre atractivo.
-
-**Por qué es buen lead:**
-- Sin web
-- 579 reviews
-- Rating 4.8
-
----
-
-### Leads individuales
-
----
-
-### 18. Buenos Aires Barber Shop
-
-- **Dirección:** Córdoba 2561, Olivos
-- **Teléfono:** 011 4794-7679
-- **Web:** http://www.buenosairesbarbershop.com/
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=8660109096502605569)
-- **Rating:** ⭐ 4.9 (1151 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-1151 reviews con 4.9★. Tiene web pero habría que ver calidad. Leads prioritario si la web es mala.
-
-**Por qué es buen lead:**
-- 1151 reviews → clientela masiva
-- Rating 4.9
-
----
-
-### 19. Barbería HL
-
-- **Dirección:** Leandro N. Alem 3383, Rosario
-- **Teléfono:** 0341 279-3377
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=6847565697597174177)
-- **Rating:** ⭐ 4.8 (374 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-374 reviews sin web. Único representante de Rosario.
-
-**Por qué es buen lead:**
-- Sin web
-- 374 reviews
-- Rating 4.8
-
----
-
-# Tatuajes y Piercings — 24 de junio de 2026
-
-## Stacking
-
-Todas son **estudios de tatuajes/piercings** → **misma plantilla** (portfolio + WhatsApp + precios). Agrupadas por ciudad.
-
-| Grupo Ciudad | Cantidad | Leads |
-|---|---|---|
-| CABA | 2 | Biscucuy Ink, INKLUSIVE |
-| Mar del Plata | 2 | House tattoo mdq, Familia Tattoo |
-| Mendoza | 2 | Moon Tattoo, SAGRADO TATTOO |
-| Córdoba | 2 | PiercingsByJuliZ, Chimera Tattoo |
-| Tucumán | 2 | Tattoo Shop, CORCHO TATTOO |
-| Rosario | 1 | Daga Negra |
-| Salta | 1 | Victory Tattoo |
-
-## Resumen
-
-| # | Nombre | Ciudad | Rating | Reviews | Web | Score |
-|---|--------|--------|--------|---------|-----|-------|
-| 1 | Tattoo Biscucuy Ink | CABA | 5.0 | 220 | ❌ | A |
-| 2 | INKLUSIVE TATTOO - PIERCING | CABA (Palermo) | 4.7 | 570 | IG only | A |
-| 3 | House tattoo mdq | Mar del Plata | 4.9 | 716 | ❌ | A |
-| 4 | Familia Tattoo | Mar del Plata | 4.8 | 336 | ❌ | A |
-| 5 | Moon Tattoo | Mendoza | 4.8 | 601 | IG only | A |
-| 6 | SAGRADO TATTOO | Mendoza | 4.9 | 242 | IG only | A |
-| 7 | PiercingsByJuliZ | Córdoba | 4.9 | 421 | IG only | A |
-| 8 | Chimera Tattoo | Córdoba | 4.8 | 265 | IG only | A |
-| 9 | Tattoo Shop | Tucumán | 4.8 | 250 | ❌ | A |
-| 10 | CORCHO TATTOO | Tucumán | 4.6 | 406 | ❌ | A |
-| 11 | Daga Negra Tattoo & Piercing | Rosario | 4.9 | 268 | IG only | A |
-| 12 | Victory Tattoo, Piercing & Supplies | Salta | 4.5 | 150 | IG only | B |
-
----
-
-## Fichas detalle
-
-### Grupo 1: CABA (2 leads, 1 visita)
-
----
-
-### 20. Tattoo Biscucuy Ink
-
-- **Dirección:** Cerrito 1060, C1010 Cdad. Autónoma de Buenos Aires
-- **Teléfono:** 011 3115-1938
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=15986950818769177135)
-- **Rating:** ⭐ 5.0 (220 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-5.0★ perfecto con 220 reviews. Sin web. Cero presencia digital. Lead ideal.
-
-**Por qué es buen lead:**
-- Sin web
-- Rating perfecto 5.0
-- 220 reviews
-
----
-
-### 21. INKLUSIVE TATTOO - PIERCING
-
-- **Dirección:** Güemes 3334, C1425 Cdad. Autónoma de Buenos Aires
-- **Teléfono:** 011 2496-8371
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=12496258658210920077)
-- **Rating:** ⭐ 4.7 (570 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-570 reviews en Palermo con solo Instagram. Alto volumen sin web propia.
-
-**Por qué es buen lead:**
-- Solo Instagram
-- 570 reviews → clientela masiva
-- Palermo → zona premium
-
----
-
-### Grupo 2: Mar del Plata (2 leads, 1 visita)
-
----
-
-### 22. House tattoo mdq
-
-- **Dirección:** Martín Miguel de Güemes 2465, Mar del Plata
-- **Teléfono:** 0223 344-1539
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=16470793285927470161)
-- **Rating:** ⭐ 4.9 (716 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-716 reviews sin web. El mejor lead de tatuajes en MDP. Cero presencia digital.
-
-**Por qué es buen lead:**
-- Sin web
-- 716 reviews → clientela masiva
-- Rating 4.9
-
----
-
-### 23. Familia Tattoo
-
-- **Dirección:** Rivadavia 4253, Mar del Plata
-- **Teléfono:** 0223 472-4704
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=9234215144871041702)
-- **Rating:** ⭐ 4.8 (336 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-336 reviews sin web. Segundo lead de MDP, apilable con House tattoo.
-
-**Por qué es buen lead:**
-- Sin web
-- 336 reviews
-- Rating 4.8
-
----
-
-### Grupo 3: Mendoza (2 leads, 1 visita)
-
----
-
-### 24. Moon Tattoo
-
-- **Dirección:** Arístides Villanueva 491, Mendoza
-- **Teléfono:** 0261 329-2109
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=8205538273980184978)
-- **Rating:** ⭐ 4.8 (601 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-601 reviews con solo Instagram. Muy popular en Mendoza sin web propia.
-
-**Por qué es buen lead:**
-- Solo Instagram
-- 601 reviews → clientela masiva
-- Rating 4.8
-
----
-
-### 25. SAGRADO TATTOO
-
-- **Dirección:** Av. España 142, Mendoza
-- **Teléfono:** 0261 353-6199
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2771539930626805725)
-- **Rating:** ⭐ 4.9 (242 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-4.9★ con 242 reviews. Solo Instagram. Excelente reputación.
-
-**Por qué es buen lead:**
-- Solo Instagram
-- Rating 4.9
-- 242 reviews
-
----
-
-### Grupo 4: Córdoba (2 leads, 1 visita)
-
----
-
-### 26. PiercingsByJuliZ
-
-- **Dirección:** Av. Colón 567 Piso 8 "A", Córdoba
-- **Teléfono:** 0351 858-0118
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=15301323378366119383)
-- **Rating:** ⭐ 4.9 (421 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-421 reviews especializada en piercings. Solo Instagram, sin web.
-
-**Por qué es buen lead:**
-- Solo Instagram
-- 421 reviews
-- Rating 4.9
-
----
-
-### 27. Chimera Tattoo
-
-- **Dirección:** Jacinto de Altolaguirre 1749, Córdoba
-- **Teléfono:** 0351 249-9637
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=17446558659001258104)
-- **Rating:** ⭐ 4.8 (265 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-265 reviews con solo Instagram. Segundo lead apilable de Córdoba.
-
-**Por qué es buen lead:**
-- Solo Instagram
-- 265 reviews
-- Rating 4.8
-
----
-
-### Grupo 5: Tucumán (2 leads, 1 visita)
-
----
-
-### 28. Tattoo Shop
-
-- **Dirección:** Av. República de Siria 1013, Tucumán
-- **Teléfono:** 0381 462-2916
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=16800972575604000143)
-- **Rating:** ⭐ 4.8 (250 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-250 reviews sin web. Sin presencia digital. Lead sólido.
-
-**Por qué es buen lead:**
-- Sin web
-- 250 reviews
-- Rating 4.8
-
----
-
-### 29. CORCHO TATTOO
-
-- **Dirección:** Congreso de Tucumán 215, Tucumán
-- **Teléfono:** 0381 595-0444
-- **Web:** No tiene
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=13986908364071283312)
-- **Rating:** ⭐ 4.6 (406 reviews)
-- **Estado:** Operando
-
-**Análisis LLM:**
-406 reviews sin web. Buen volumen, segundo lead apilable de Tucumán.
-
-**Por qué es buen lead:**
-- Sin web
-- 406 reviews
-- Rating 4.6
-
----
-
-### Leads individuales
-
----
-
-### 30. Daga Negra Tattoo & Piercing
-
-- **Dirección:** Av. Carlos Pellegrini 1377, Rosario
-- **Teléfono:** 0341 698-5534
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=9926787106852330762)
+### 5. M Madrid Estilistas 66
+
+- **Dirección:** Calle de Viriato, 66, Chamberí, 28010 Madrid
+- **Teléfono:** 667 01 42 90
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=8990475333589493243)
 - **Rating:** ⭐ 4.9 (268 reviews)
-- **Estado:** Operando
+- **Categoría:** Peluquería/Estética
 
 **Análisis LLM:**
-268 reviews con solo Instagram. Único representante de Rosario en tatuajes.
+Sin web. Peluquería en Chamberí con 268 reviews. Zona premium de Madrid. Sin página web en sector donde la imagen lo es todo → oportunidad enorme.
 
-**Por qué es buen lead:**
-- Solo Instagram
-- 268 reviews
-- Rating 4.9
+**Score:** A
 
 ---
 
-### 31. Victory Tattoo, Piercing & Supplies
+### 6. Mood beauty and wellness salon
 
-- **Dirección:** Alvarado 514, Salta
-- **Teléfono:** 0387 534-9323
-- **Web:** Solo Instagram
-- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=15620395033720806184)
-- **Rating:** ⭐ 4.5 (150 reviews)
-- **Estado:** Operando
+- **Dirección:** calle de velazquez 117, Salamanca, 28006 Madrid
+- **Teléfono:** 644 36 87 27
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2226669873245485464)
+- **Rating:** ⭐ 4.9 (138 reviews)
+- **Categoría:** Peluquería/Estética
 
 **Análisis LLM:**
-150 reviews con solo Instagram. Único representante de Salta en tatuajes.
+Sin web. Salón de belleza en la calle Velázquez (Salamanca, zona más cara de Madrid). 138 reviews. Sin web en una zona así es imperdonable → lead PREMIUM.
 
-**Por qué es buen lead:**
-- Solo Instagram
-- 150 reviews
-- Rating 4.5
+**Score:** A
+
+---
+
+### 7. Electricistas Madrid Rueda
+
+- **Dirección:** C. de Boix y Morer, 7, Chamberí, 28003 Madrid
+- **Teléfono:** 910 05 29 64
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=3850335813491187863)
+- **Rating:** ⭐ 4.8 (48 reviews)
+- **Categoría:** Electricista
+
+**Análisis LLM:**
+Sin web. Electricista en Chamberí con 48 reviews. Servicio de urgencia → alta intención de búsqueda. Sin web pierde clientes.
+
+**Score:** A
+
+---
+
+### 8. AUTO BROS València
+
+- **Dirección:** Carrer de València, 433, Eixample, 08013 Barcelona
+- **Teléfono:** 931 40 11 04
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2270782142427098521)
+- **Rating:** ⭐ 4.6 (199 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller en Eixample Barcelona con 199 reviews. Sin página web en 2026 → oportunidad clara de venta.
+
+**Score:** A
+
+---
+
+### 9. Clinisport Barcelona
+
+- **Dirección:** Carrer de París, 138, Local Izq, Eixample, 08036 Barcelona
+- **Teléfono:** 930 09 22 83
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=10213098940783455963)
+- **Rating:** ⭐ 5 (86 reviews)
+- **Categoría:** Fisioterapia/Medicina deportiva
+
+**Análisis LLM:**
+Sin web. Clínica de fisioterapia deportiva en Eixample. 86 reviews perfectas. SIN WEB → caso muy raro en salud. Lead EXCELENTE.
+
+**Score:** A
+
+---
+
+### 10. Lampistería María K, Lampista
+
+- **Dirección:** Carrer de la Marina, 234, Eixample, 08013 Barcelona
+- **Teléfono:** 935 41 87 02
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=13928628012422957065)
+- **Rating:** ⭐ 4.9 (125 reviews)
+- **Categoría:** Fontanero
+
+**Análisis LLM:**
+Sin web. Fontanero en Eixample con 125 reviews. Sin web en sector de emergencias → pierde clientes urgentes.
+
+**Score:** A
+
+---
+
+### 11. Electricista Fontanero Lampista Urgencia 24/7
+
+- **Dirección:** Carrer de la Mare de Déu del Remei, 32, Sants-Montjuïc, 08004 Barcelona
+- **Teléfono:** 666 52 66 61
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=11461420068349125559)
+- **Rating:** ⭐ 5 (44 reviews)
+- **Categoría:** Fontanero/Electricista
+
+**Análisis LLM:**
+Sin web. Multiservicios 24h con 44 reviews perfectas. Nombre descriptivo y sin web → necesita presencia digital urgente.
+
+**Score:** A
+
+---
+
+### 12. INSTAL-TONI reformas y reparaciones
+
+- **Dirección:** Carrer de Floridablanca, Eixample, 08015 Barcelona
+- **Teléfono:** 665 43 56 46
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=7220006243611273936)
+- **Rating:** ⭐ 5 (65 reviews)
+- **Categoría:** Fontanero/Electricista
+
+**Análisis LLM:**
+Sin web. Reformas y reparaciones con 65 reviews. Sin web en sector de servicios del hogar.
+
+**Score:** B
+
+---
+
+### 13. The Beauty Salon Valencia
+
+- **Dirección:** Calle, Cam. Nuevo de Picaña, 17, bajo derecha, Patraix, 46014 Valencia
+- **Teléfono:** 961 91 65 29
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=4364292683460934593)
+- **Rating:** ⭐ 4.8 (168 reviews)
+- **Categoría:** Peluquería/Estética
+
+**Análisis LLM:**
+Sin web. Peluquería con 168 reviews en Valencia. Sin página web → pierde clientes que buscan online. Lead claro.
+
+**Score:** A
+
+---
+
+### 14. Hairbar
+
+- **Dirección:** C/ de Málaga, 2, La Saïdia, 46009 València
+- **Teléfono:** 615 56 64 06
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=851724639917717538)
+- **Rating:** ⭐ 4.9 (128 reviews)
+- **Categoría:** Peluquería/Estética
+
+**Análisis LLM:**
+Sin web. Peluquería con 128 reviews en Valencia. Sin web. Nombre moderno 'Hairbar' sin presencia digital.
+
+**Score:** A
+
+---
+
+### 15. Fontanero ciudad vella valencia 24H
+
+- **Dirección:** Carrer de Ciscar, L'Eixample, 46005 València
+- **Teléfono:** 641 89 86 93
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=3345146686056809629)
+- **Rating:** ⭐ 4.9 (51 reviews)
+- **Categoría:** Fontanero
+
+**Análisis LLM:**
+Sin web. Fontanero 24h con 51 reviews. Servicio de urgencia sin web → emergencia digital.
+
+**Score:** A
+
+---
+
+### 16. Fontanería Ximo
+
+- **Dirección:** Camí Vell de Sant Lluís, 11, Quatre Carreres, 46013 València
+- **Teléfono:** 630 00 30 08
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=1230574750083762480)
+- **Rating:** ⭐ 4.9 (134 reviews)
+- **Categoría:** Fontanero
+
+**Análisis LLM:**
+Sin web. Fontanero con 134 reviews y 4.9⭐. Sin web en 2026 → cliente potencial altísimo.
+
+**Score:** A
+
+---
+
+### 17. Fontanería Antonio Cerdán
+
+- **Dirección:** Carrer de Leandro de Saralegui, 9, Algirós, 46021 València
+- **Teléfono:** 640 14 63 60
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=5044889535061916633)
+- **Rating:** ⭐ 5 (151 reviews)
+- **Categoría:** Fontanero
+
+**Análisis LLM:**
+Sin web. Fontanero con 151 reviews perfectas. Sin web en Valencia. Oportunidad directa.
+
+**Score:** A
+
+---
+
+### 18. ELECTRICISTA ELECMAR Valencia
+
+- **Dirección:** L'Amistat, Algirós, 46021 Valencia
+- **Teléfono:** 611 65 84 22
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=689829609225369586)
+- **Rating:** ⭐ 5 (54 reviews)
+- **Categoría:** Electricista
+
+**Análisis LLM:**
+Sin web. Electricista con 54 reviews perfectas. Sin web → pierde clientes que buscan 'electricista Valencia'.
+
+**Score:** A
+
+---
+
+### 19. Auto Repair
+
+- **Dirección:** Ctra. d'Escrivà, 26, Jesús, 46007 Valencia
+- **Teléfono:** 963 42 12 39
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=14627411899675910849)
+- **Rating:** ⭐ 4.9 (157 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller con 157 reviews. Nombre genérico 'Auto Repair' sin web. Necesita marca y presencia online.
+
+**Score:** A
+
+---
+
+### 20. Sprint Auto Valencia
+
+- **Dirección:** C/ del Doctor Blay, 1, Campanar, 46015 València
+- **Teléfono:** 963 48 70 83
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=7518285004978032179)
+- **Rating:** ⭐ 5 (65 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller con nombre inglés 'Sprint Auto' pero sin web. 65 reviews perfectas. Lead claro.
+
+**Score:** B
+
+---
+
+### 21. Taller mecanico 24 horas S.N
+
+- **Dirección:** C. de Carles Cortina, 23, Benicalap, 46025 València
+- **Teléfono:** 691 20 18 37
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=3088466236314472766)
+- **Rating:** ⭐ 4.5 (295 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. 295 reviews → volumen enorme. Taller 24h sin web. Lead MASIVO.
+
+**Score:** A
+
+---
+
+### 22. Naturé beauty salon
+
+- **Dirección:** C. Dos de Mayo, 28, Casco Antiguo, 41001 Sevilla
+- **Teléfono:** 680 26 71 87
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=9813563244010383057)
+- **Rating:** ⭐ 4.7 (188 reviews)
+- **Categoría:** Peluquería/Estética
+
+**Análisis LLM:**
+Sin web. Peluquería en Casco Antiguo de Sevilla con 188 reviews. Sin web en centro turístico → oportunidad.
+
+**Score:** A
+
+---
+
+### 23. Desatascos Tayne
+
+- **Dirección:** C. Torre Arévalo, 1, 41016 Sevilla
+- **Teléfono:** 697 47 04 99
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=7052395219104904821)
+- **Rating:** ⭐ 5 (83 reviews)
+- **Categoría:** Fontanero
+
+**Análisis LLM:**
+Sin web. Fontanero/desatascos con 83 reviews perfectas. Sin web en sector urgencias.
+
+**Score:** A
+
+---
+
+### 24. Taller mecánico Sevilla - Auto Diésel Valle
+
+- **Dirección:** Av. Hacienda San Antonio, 10, 41016 Sevilla
+- **Teléfono:** 955 13 46 06
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2448202723731884444)
+- **Rating:** ⭐ 4.6 (144 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller especializado diésel con 144 reviews. Sin web en 2026.
+
+**Score:** A
+
+---
+
+### 25. Taller mecánico Jardinauto
+
+- **Dirección:** C. Alfonso XI, 60, 41005 Sevilla
+- **Teléfono:** 954 64 33 50
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=2396371405585979425)
+- **Rating:** ⭐ 4.6 (138 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller con 138 reviews en Sevilla. Sin presencia online.
+
+**Score:** B
+
+---
+
+### 26. Taller Autosevilla
+
+- **Dirección:** Polígono Ind.La Red Norte, calle 12, 41500 Sevilla
+- **Teléfono:** 955 10 23 99
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=7681105732475025349)
+- **Rating:** ⭐ 4.7 (170 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller con 170 reviews. Nombre 'Autosevilla' sin dominio .com → oportunidad de branding.
+
+**Score:** A
+
+---
+
+### 27. AUTOMECÁNICA TRIANA
+
+- **Dirección:** C. Trabajo, 4, 41010 Sevilla
+- **Teléfono:** 695 62 26 92
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=13176456251398970099)
+- **Rating:** ⭐ 4.4 (150 reviews)
+- **Categoría:** Taller mecánico
+
+**Análisis LLM:**
+Sin web. Taller en Triana con 150 reviews. Zona emblemática sin web.
+
+**Score:** B
+
+---
+
+### 28. ELECTRICISTA .SANCHEZ
+
+- **Dirección:** C. Estrasburgo, 41012 Sevilla
+- **Teléfono:** 645 11 34 44
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=16756545738645782190)
+- **Rating:** ⭐ 4.9 (226 reviews)
+- **Categoría:** Electricista
+
+**Análisis LLM:**
+Sin web. Electricista con 226 reviews. Sin web en 2026 teniendo 226 reviews es imperdonable. Lead EXCELENTE.
+
+**Score:** A
+
+---
+
+### 29. FONTANERO TERMOS ELECTRICOS Leonardo Ruiz
+
+- **Dirección:** San Luis, Casco Antiguo, 41003 Sevilla
+- **Teléfono:** 651 91 25 07
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=12005608384456890551)
+- **Rating:** ⭐ 5 (45 reviews)
+- **Categoría:** Fontanero
+
+**Análisis LLM:**
+Sin web. Fontanero con 45 reviews perfectas. Sin web en sector emergencias.
+
+**Score:** A
+
+---
+
+### 30. HAIR SALON MALAGA
+
+- **Dirección:** C. Jovellanos, 5, Distrito Centro, 29002 Málaga
+- **Teléfono:** 631 54 82 48
+- **Web:** ❌ No tiene
+- **Google Maps:** [Ver en Maps](https://maps.google.com/?cid=7966714242736331150)
+- **Rating:** ⭐ 4.9 (342 reviews)
+- **Categoría:** Peluquería/Estética
+
+**Análisis LLM:**
+Sin web. Peluquería con 342 reviews en Málaga centro. Marca 'HAIR SALON MALAGA' sin dominio. Necesita web URGENTE.
+
+**Score:** A
+
+---
+
